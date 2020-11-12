@@ -1,0 +1,12 @@
+/* .main-div{
+    display: flex;
+} */
+
+.task{
+    background-color: lightgreen;
+    padding: 20px;
+    margin: 50px;
+    width: 30%;
+    height: 120px;
+    
+}

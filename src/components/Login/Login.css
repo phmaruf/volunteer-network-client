@@ -1,0 +1,14 @@
+.login-body{
+    background-color:;
+}
+.login{
+    margin: 10px 400px;
+    padding: 150px 100px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+.login-button{
+    border: 1px solid lightgrey;
+    border-radius: 50px;
+    width: 400px;
+}

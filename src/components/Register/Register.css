@@ -1,0 +1,35 @@
+.register{
+    margin: 10px 450px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+.ship-form{
+    padding: 0px 40px;
+    margin: 0px 40px;
+}
+
+.ship-form input{
+    display: block;
+    margin-top: 30px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.error{
+    color: red;
+}
+.input-btn{
+    margin-bottom: 50px;
+    background-color: #3498db;
+    color: white;
+    display: block;
+    margin-top: 30px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 300px;
+    
+}
