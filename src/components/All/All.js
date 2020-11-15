@@ -11,7 +11,7 @@ const All = () => {
     const [loggedInUser, setLoggedInUser] =useContext(UserContext);
 
     useEffect(() => {
-        fetch('http://localhost:5000/tasks?email='+loggedInUser.email, {
+        fetch('https://quiet-castle-46164.herokuapp.com/tasks?email='+loggedInUser.email, {
             method: 'GET',
             headers: {
                 'content-type': 'application/json',

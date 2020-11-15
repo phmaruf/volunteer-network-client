@@ -29,7 +29,7 @@ const [reEvent, setReEvent] = useState({})
   
     const onSubmit = (data) =>{
         const newTask = {...loggedInUser, ...data};
-        fetch('http://localhost:5000/addTask', {
+        fetch('https://quiet-castle-46164.herokuapp.com/addTask', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(newTask)
